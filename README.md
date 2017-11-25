@@ -24,4 +24,8 @@ $currPath = [Environment]::GetEnvironmentVariable("Path", $envLevel)
 $newPath = "$currPath;$lsWinPath"
 [Environment]::SetEnvironmentVariable("Path", "Test value.", "User")
 
+# dirMac
+Use "dir" command with Mac terminal
 
+add to your .bash_profile and restart the terminal
+`dir(){ ls; }`
