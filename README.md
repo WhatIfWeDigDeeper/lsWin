@@ -27,5 +27,5 @@ $newPath = "$currPath;$lsWinPath"
 # dirMac
 Use "dir" command with Mac terminal
 
-add to your .bash_profile and restart the terminal
+add to your .bash_profile or .zshrc if you're using z-shell and restart the terminal
 `dir(){ ls; }`
